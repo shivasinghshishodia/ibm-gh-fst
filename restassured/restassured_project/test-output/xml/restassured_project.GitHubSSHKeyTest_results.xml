@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Default test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="3.920">
+    <properties></properties>
+
+
+
+            <testcase
+                name="getSSHKey"
+                time="0.617"
+                classname="restassured_project.GitHubSSHKeyTest">
+            </testcase>
+            <testcase
+                name="deleteSSHKey"
+                time="0.425"
+                classname="restassured_project.GitHubSSHKeyTest">
+            </testcase>
+            <testcase
+                name="addSSHKey"
+                time="2.878"
+                classname="restassured_project.GitHubSSHKeyTest">
+            </testcase>
+</testsuite>
