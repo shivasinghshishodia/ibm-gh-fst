@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="FSTTests" thread-count="4" parallel="classes">
+    		<parameter name="username" value="admin" />
+    		<parameter name="password" value="password" />
+    		<test name="FSTActivities">
+<classes> 
+	<class name="selenium.Activity1Test"/>
+	<class name="selenium.Activity3Test"/>
+	<class name="selenium.Activity5Test"/>
+	<class name="selenium.Activity6Test"/>
+</classes>
+</test>
+</suite>
